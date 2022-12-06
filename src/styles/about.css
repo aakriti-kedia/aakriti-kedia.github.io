@@ -1,0 +1,37 @@
+.about-container {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-intro {
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    margin-bottom: 1vh;
+
+    align-items: justify;
+
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.about-details {
+    font-size: calc(0.75rem + 0.5vw);
+    margin-bottom: 4vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-quote {
+    font-size: calc(0.5rem + 0.5vw);
+    font-style: italic;
+
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+    text-align: right;
+}
