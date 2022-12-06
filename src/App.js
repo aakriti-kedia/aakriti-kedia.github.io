@@ -9,10 +9,14 @@ import About from './pages/about'
 import Resume from './pages/resume'
 import Contact from './pages/contact'
 
+import Navbar from './containers/navbar';
+
 
 const App = () => {
   return (
     <HashRouter>
+      <Navbar />
+
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/recommendations" element={<Recommendations/>} />

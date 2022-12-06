@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:wght@100&display=swap');
+
+.home-container {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+
+    object-fit: cover;
+    object-position: center top;
+
+    margin-bottom: 2vh;
+}
+
+.home-intro {
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.home-name {
+    font-size: calc(1rem + 1vh);
+    margin-bottom: 1vh;
+}
+
+.home-university {
+    font-size: calc(0.5rem + 0.75vh);
+}
+
+.home-address {
+    font-size: calc(0.4rem + 0.5vh);
+}
+
+.home-icons-wrapper li {
+    padding: 0.25vw;
+    display: inline;
+    margin-bottom: 1vh;
+}
+
+.home-icons-wrapper .home-icons {
+    fill: #888888;
+    height: calc(1rem + 0.75vw);
+    width: calc(1rem + 0.75vw);
+}
+
+.home-icons-wrapper .home-icons:hover {
+    fill: #333333;
+}
+
+.home-icons-wrapper .linkedin:hover {
+    fill: #0075B5;
+}
+
+.home-icons-wrapper .github:hover {
+    fill: #24292F;
+}
+
+.home-icons-wrapper .instagram:hover {
+    fill: #FB3958;
+}
+
+.home-icons-wrapper .email:hover {
+    fill: #D44638;
+}
