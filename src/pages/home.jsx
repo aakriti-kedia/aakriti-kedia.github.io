@@ -24,9 +24,9 @@ const Home = () => {
 
       <div className="home-intro">
         <p className="home-name">Hello World! I am Aakriti Kedia.</p>
-        <p className="home-university">Computer Science Graduate student @ UCSD 
-        | Ex-SDE 3 @ Walmart 
-        | Gold medalist, BIT Mesra '20</p>
+        <p className="home-university">Computer Science Graduate student @ UCSD
+        <br></br> Ex-SDE 3 @ Walmart 
+        <br></br> Gold medalist, BIT Mesra '20</p>
         <p className="home-address">La Jolla, California, United States of America</p>
       </div>
 
