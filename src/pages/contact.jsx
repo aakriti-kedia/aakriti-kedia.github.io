@@ -1,7 +1,75 @@
-import React from 'react'
+// IMPORT LIBRARIES
+import React from "react";
+
+// IMPORT STYLES
+import "../styles/contact.css";
+
+// IMPORT ICONS
+import LinkedinIcon from "../assets/icons/linkedin";
+import GithubIcon from "../assets/icons/github";
+// import InstagramIcon from "../assets/icons/instagram";
+
 const Contact = () => {
-    return (
-        <div> Hello from Contact!!</div>
-    );
+  return (
+    <div className="contact-container">
+
+      <div className="contact-intro">
+        <p className="contact-details">Feel free to drop me a note on:</p>
+        <div className="contact-emails">
+          <a
+              href="mailto:akedia@ucsd.edu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-email"
+          >
+            akedia@ucsd.edu
+          </a>
+          <a
+              href="mailto:aakritikedia614@gmail.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-email"
+          >
+            aakritikedia614@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <div className="contact-icons-wrapper">
+        <ul>
+          <li>
+            <a 
+              href="https://www.linkedin.com/in/aakriti-kedia/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <LinkedinIcon className="contact-icons linkedin"/>
+            </a>
+          </li>
+
+          <li>
+            <a 
+              href="https://github.com/aakriti-kedia" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="contact-icons github"/>
+            </a>
+          </li>
+
+          {/* <li>
+            <a 
+              href="https://www.instagram.com/aakriti.kedia/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <InstagramIcon className="contact-icons instagram"/>
+            </a>
+          </li> */}
+        </ul>
+      </div>
+    </div>
+  );
 }
+
 export default Contact;

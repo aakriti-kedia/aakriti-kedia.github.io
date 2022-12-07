@@ -1,0 +1,61 @@
+.contact-container {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-intro {
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.contact-details {
+    font-size: calc(0.5rem + 0.5vw);
+    margin-bottom: 4vh;
+}
+
+.contact-emails {
+    font-size: calc(0.5rem + 0.5vw);
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-email {
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+
+.contact-email:hover {
+    color: #333333;
+}
+
+.contact-icons-wrapper li {
+    padding: 0.25vw;
+    display: inline;
+}
+
+.contact-icons-wrapper .contact-icons {
+    fill: #888888;
+    height: calc(1.5rem + 1.5vw);
+    width: calc(1.5rem + 1.5vw);
+    cursor: pointer;
+}
+
+.contact-icons-wrapper .linkedin:hover {
+    fill: #0075B5;
+}
+
+.contact-icons-wrapper .github:hover {
+    fill: #24292F;
+}
+
+.contact-icons-wrapper .instagram:hover {
+    fill: #FB3958;
+}
