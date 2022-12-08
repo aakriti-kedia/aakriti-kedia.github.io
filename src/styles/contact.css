@@ -7,15 +7,15 @@
 }
 
 .contact-intro {
-    font-family: 'Roboto Slab', serif;
-    color: #444444;
+    /* font-family: 'Roboto Slab', serif;
+    color: #444444; */
     text-align: center;
     margin-bottom: 2vh;
 }
 
 .contact-details {
-    font-size: calc(0.5rem + 0.5vw);
     margin-bottom: 4vh;
+    font-size: calc(0.75rem + 0.5vw);
 }
 
 .contact-emails {
@@ -26,8 +26,9 @@
 }
 
 .contact-email {
-    font-family: 'Roboto Slab', serif;
-    color: #666666;
+    /* font-family: 'Roboto Slab', serif;
+    color: #666666; */
+    font-size: calc(0.75rem + 0.5vw);
     text-decoration: none;
     margin-bottom: 1vh;
 }
