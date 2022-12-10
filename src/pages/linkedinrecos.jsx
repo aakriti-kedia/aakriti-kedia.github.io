@@ -26,14 +26,14 @@ const LinkedInPage = () => {
 
     function managePage(direction, curInd, endInd) {
         if(direction === 'prev') {
-            if(curInd == 0) {
+            if(curInd === 0) {
                 return(false);
             } else {
                 removeShow('box', curInd);
                 addShow('box', curInd-1);
             }
         } else {
-            if(curInd == endInd - 1) {
+            if(curInd === endInd - 1) {
                 return(false);
             } else {
                 removeShow('box', curInd);
@@ -58,7 +58,7 @@ const LinkedInPage = () => {
 
   return (
     <div>
-        <h1>What some cool people say about me!</h1>
+        <h2 class="recos-title">What some cool people say about me!</h2>
 
         <div class="container">
             <div class="binderleft">

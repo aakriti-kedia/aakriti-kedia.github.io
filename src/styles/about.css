@@ -7,24 +7,21 @@
 }
 
 .about-intro {
-    margin-bottom: 1vh;
-
     align-items: justify;
-
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     margin-left: 8vw;
     margin-right: 8vw;
 }
 
 .about-details {
     font-size: calc(0.75rem + 0.5vw);
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
     text-align: justify;
     text-justify: inter-word;
 }
 
-.about-quote {
+/* .about-quote {
     font-size: calc(0.5rem + 0.5vw);
     font-style: italic;
 
@@ -32,4 +29,4 @@
     margin-bottom: 4vh;
 
     text-align: right;
-}
+} */
