@@ -10,7 +10,51 @@ import Shirpaa from '../assets/images/shirpaa.jpeg'
 import Swetha from '../assets/images/swetha.jpeg'
 import Pooja from '../assets/images/pooja.jpeg'
 
-const LinkedInPage = () => {        
+const LinkedInPage = () => {
+    function removeShow(className, ind) {
+        var elms = document.getElementsByClassName(className);
+        var curElm = elms[ind];
+        curElm.classList.remove("show");
+        curElm.classList.add("hide");
+    }
+    function addShow(className, ind) {
+        var elms = document.getElementsByClassName(className);
+        var curElm = elms[ind];
+        curElm.classList.add("show");
+        curElm.classList.remove("hide");
+    }
+
+    function managePage(direction, curInd, endInd) {
+        if(direction === 'prev') {
+            if(curInd == 0) {
+                return(false);
+            } else {
+                removeShow('box', curInd);
+                addShow('box', curInd-1);
+            }
+        } else {
+            if(curInd == endInd - 1) {
+                return(false);
+            } else {
+                removeShow('box', curInd);
+                addShow('box', curInd+1);
+            }
+        }
+    }
+
+    window.onload = function() {
+        let left_arrows = document.getElementsByClassName("fa-arrow-left")
+        let right_arrows = document.getElementsByClassName("fa-arrow-right")
+        for(let i = 0; i < left_arrows.length; i++) {
+            console.log(left_arrows[i]);
+            left_arrows[i].onclick = function() {
+                managePage('prev', i, left_arrows.length);
+            }
+            right_arrows[i].onclick = function() {
+                managePage('next', i, left_arrows.length);
+            }
+        }
+    };
 
   return (
     <div>
