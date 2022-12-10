@@ -10,6 +10,7 @@ import Resume from './pages/resume'
 import Contact from './pages/contact'
 
 import Navbar from './containers/navbar';
+import LinkedInPage from './pages/linkedinrecos';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/about" element={<About/>} />
         <Route exact path="/resume" element={<Resume/>} />
         <Route exact path="/contact" element={<Contact/>} />
+        <Route exact path="/linkedin" element={<LinkedInPage/>} />
         {/* <Route exact path="*" element={<p>Path not resolved</p>} /> */}
         <Route exact path="/somepath" element={ Recommendations } />
       </Routes>          
