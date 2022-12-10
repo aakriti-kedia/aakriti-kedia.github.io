@@ -26,17 +26,17 @@ const LinkedInPage = () => {
 
     function managePage(direction, curInd, endInd) {
         if(direction === 'prev') {
+            removeShow('box', curInd);
             if(curInd === 0) {
-                return(false);
+                addShow('box', endInd-1);
             } else {
-                removeShow('box', curInd);
                 addShow('box', curInd-1);
             }
         } else {
+            removeShow('box', curInd);
             if(curInd === endInd - 1) {
-                return(false);
+                addShow('box', 0);
             } else {
-                removeShow('box', curInd);
                 addShow('box', curInd+1);
             }
         }
@@ -55,6 +55,23 @@ const LinkedInPage = () => {
             }
         }
     };
+
+    function sliderAutomated() {
+        let boxes = document.getElementsByClassName("box");
+        for(let i = 0; i < boxes.length; i++) {
+            let box = boxes[i];
+            if(box.classList.contains("show")) {
+                managePage('next', i, boxes.length);
+                break;
+            }
+        }
+    }
+
+    setInterval(function() {
+        sliderAutomated();
+    }, 3000);
+
+    
 
   return (
     <div>
