@@ -5,7 +5,7 @@ const Resume = () => {
         <div className="about-container">
         <div className="about-intro">
         <div> 
-            <a href = {Pdf} target = "_blank">Download Pdf</a>
+            <a href = {Pdf} target = "_blank" rel="noopener noreferrer">Download Pdf</a>
         </div>
         </div>
         </div>
