@@ -5,7 +5,7 @@ import React from "react";
 import "../styles/home.css";
 
 // IMPORT IMAGES
-import akImage from'../assets/images/aakriti.jpeg';
+import akImage from '../assets/images/aakriti.jpeg';
 
 // IMPORT ICONS
 import LinkedinIcon from "../assets/icons/linkedin";
@@ -73,6 +73,15 @@ const Home = () => {
           </li>
         </ul>
       </div>
+
+      <div className="download-section">
+        <a                 
+          href="/resume.pdf"
+          className="resume-download"
+        >
+          Download Resume
+        </a>
+      </div> 
     </div>
   );
 }

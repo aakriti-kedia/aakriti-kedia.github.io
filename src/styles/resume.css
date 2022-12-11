@@ -1,0 +1,225 @@
+.resume-container {
+    margin-top: 100px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.download-section .resume-download {
+    color: #666666;
+    border: solid 1px #333333;
+    padding: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.download-section .resume-download:hover {
+    color: #ffffff;
+    border-color: #473b3b;
+    background-color: #484343;
+}
+
+.icons-section {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2vh;
+}
+
+.icons-section li {
+    padding: 0.25vw;
+    display: inline;
+}
+
+.icons-section .resume-icons {
+    fill: #888888;
+    height: calc(1.5rem + 1.5vw);
+    width: calc(1.5rem + 1.5vw);
+    cursor: pointer;
+}
+
+.icons-section .linkedin:hover {
+    fill: #0075B5;
+}
+
+.icons-section .github:hover {
+    fill: #24292F;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.vertical-scrollable-timeline {
+    width: 70vw;
+    list-style-type: none;
+    position: relative;
+}
+
+.list-progress {
+    width: 4px;
+    height: 100%;
+    background-color: #444444;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    overflow: hidden;
+}
+
+.list-progress .inner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #999999;
+    width: 100%;
+}
+
+.vertical-scrollable-timeline li {
+    position: relative;
+    padding: 0 0 36px 48px;
+}
+
+.vertical-scrollable-timeline li:last-child {
+    margin-bottom: 0;
+}
+
+.vertical-scrollable-timeline li p:last-child {
+    margin-bottom: 0;
+}
+
+.vertical-scrollable-timeline li .pointer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+    border-radius: 50%;
+    z-index: 1;
+    transition: 0.4s all;
+}
+
+.vertical-scrollable-timeline li .pointer::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    background-color: #999999;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s all;
+}
+
+.vertical-scrollable-timeline li::before {
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    background-color: transparent;
+    left: 48px;
+    z-index: 0;
+}
+
+.vertical-scrollable-timeline li.active .pointer {
+    background-color: #cb0909;
+}
+
+.vertical-scrollable-timeline li.active .pointer::before {
+    background-color: #ce4646;
+}
+
+.heading-section {
+    margin-left: 18vw;
+    display: flex;
+}
+
+.heading-section .heading {
+    /* text-align: center; */
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    font-size: calc(1rem + 1.5vh);
+    font-weight: 600;
+    color: #555555;
+}
+
+.heading-section .logo {
+    height: calc(2.5rem + 3vh);
+    margin: 2vh 1vw 0vh 0vw;
+}
+
+.resume-item .title {
+    font-size: calc(0.5rem + 1.5vh);
+    margin-bottom: 1vh;
+    font-weight: 600;
+    color: #555555;
+}
+
+.resume-item .sub-title {
+    font-size: calc(0.7rem + 0.75vh);
+    margin-bottom: 1vh;
+    font-weight: 400;
+    color: #555555;
+}
+
+.resume-item .sub-sub-title {
+    font-size: calc(0.5rem + 0.75vh);
+    margin-bottom: 1vh;
+    font-weight: 400;
+    color: #777777;
+}
+
+.resume-item .content {
+    font-size: calc(0.5rem + 0.75vh);
+    line-height: 1.5;
+    color: #666666;
+    text-align: justify;
+}
+
+.resume-icons {
+    fill: #fff;
+}
+
+.resume-logo {
+    height: 10vw;
+    margin: 2vh 2vw 2vh 2vw;
+}
+
+.ucsd-logo {
+    min-height: 100px;
+}
+
+.psg-logo {
+    margin-left: 4vh;
+    min-height: 100px;
+}
+
+.ramco-logo {
+    min-width: 100px;
+    width: 12vw;
+    height: auto;
+}
+
+.resume-links {
+    color: #666666;
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+
+.resume-links:hover {
+    color: #333333;
+}
