@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "00cfa23d273e3a5a0086",
-    "url": "/static/css/main.eb29f37c.chunk.css"
+    "revision": "147970f4e88444902c89",
+    "url": "/static/css/main.8f86c919.chunk.css"
   },
   {
-    "revision": "00cfa23d273e3a5a0086",
-    "url": "/static/js/main.7eb69e6a.chunk.js"
+    "revision": "147970f4e88444902c89",
+    "url": "/static/js/main.c1d074d5.chunk.js"
   },
   {
     "revision": "3a033f4c2d6ddb9484a8",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/pooja.bcd3267d.jpeg"
   },
   {
-    "revision": "7a80a49eb343a1c221800dbcbb7c1e81",
+    "revision": "5507e6307ecd49a8d670ecbb222981d6",
     "url": "/index.html"
   }
 ];
