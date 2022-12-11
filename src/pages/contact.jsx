@@ -14,7 +14,7 @@ const Contact = () => {
     <div className="contact-container">
 
       <div className="contact-intro">
-        <p className="contact-details">Feel free to drop me a note on:</p>
+        <p className="contact-details">Drop me a note on:</p>
         <div className="contact-emails">
           <a
               href="mailto:akedia@ucsd.edu" 

@@ -10,7 +10,7 @@ import Shirpaa from '../assets/images/shirpaa.jpeg'
 import Swetha from '../assets/images/swetha.jpeg'
 import Pooja from '../assets/images/pooja.jpeg'
 
-const LinkedInPage = () => {
+const LinkedInRecos = () => {
     function removeShow(className, ind) {
         var elms = document.getElementsByClassName(className);
         var curElm = elms[ind];
@@ -69,7 +69,7 @@ const LinkedInPage = () => {
 
     setInterval(function() {
         sliderAutomated();
-    }, 3000);
+    }, 5000);
 
     
 
@@ -156,4 +156,4 @@ const LinkedInPage = () => {
     </div>
   );
 }
-export default LinkedInPage;
+export default LinkedInRecos;

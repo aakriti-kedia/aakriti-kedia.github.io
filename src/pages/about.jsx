@@ -1,6 +1,6 @@
 import React from "react";
 
-import LinkedInPage from './linkedinrecos';
+import LinkedInRecos from './linkedinrecos';
 
 import "../styles/about.css";
 
@@ -19,7 +19,7 @@ const About = () => {
         </p>
       </div>
       <div className="linkedin-recos">
-      <LinkedInPage/>
+      <LinkedInRecos/>
       </div>
     </div>
   );
