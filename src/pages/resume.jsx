@@ -84,7 +84,7 @@ const Resume = () => {
                 <p>- Best outgoing student; Gold Medalist - Batch of 2020</p>
                 <p>- Technical member at IEEE, Student's Chapter BIT Mesra </p>
                 <p>- Executive member at National Service Scheme, BIT Mesra </p>
-                <p>- Member at Dance club member, BIT Mesra </p>
+                <p>- Dance club member, BIT Mesra </p>
                 <p>- Finalist of Smart India Hackathon, 2019 </p>
               </div>
               <div className="pointer"></div>
@@ -152,17 +152,15 @@ const Resume = () => {
                 <p> - Spearheaded personalized banner support in emails. W+ membership, App download, and Easter banners reported ~95% CTR (click-through rate) </p>
                 <p> - Implemented and deployed pipelines that pushed TBs of data to Cassandra and cache nodes </p>
                 <p> - Built a ~0.5% GMV contributing framework for assigning "Holiday Deal" badges on www.walmart.com </p>
-                <p> - Migrated search and reviews VM use-cases to the Walmart Cloud Native Platform saving ~16 VM costs </p>
-                <p> - Upgraded and alpha-released Outlier Detection System (ODDS) assembled during Winter Internship </p>
                 <p> - Rewarded Engineering Excellence Award for remarkable year-round adaptability and agility </p>
-                <p> - Instructed a 40-member Product Managers cohort familiarizing them with engineering jargon, resulting in
+                <p> - Instructed a 40-member Product Managers cohort, familiarizing them with engineering jargon, resulting in
                 a 15% efficacy boost in PM and engineering conversations </p>
               </div>
               <div className="pointer"></div>
             </li>
 
             <li className="resume-item">
-              <div className="title">
+              {/* <div className="title">
                 <a
                   href="https://tech.walmart.com/content/walmart-global-tech/en_us.html"
                   target="_blank" 
@@ -171,7 +169,7 @@ const Resume = () => {
                 >
                     Walmart Global Tech, Bangalore, India
                 </a>
-              </div>
+              </div> */}
 
               <div className="sub-title">
               Software Engineering Winter intern
@@ -191,7 +189,7 @@ const Resume = () => {
             </li>
 
             <li className="resume-item">
-              <div className="title">
+              {/* <div className="title">
                 <a
                   href="https://tech.walmart.com/content/walmart-global-tech/en_us.html"
                   target="_blank" 
@@ -200,7 +198,7 @@ const Resume = () => {
                 >
                     Walmart Global Tech, Bangalore, India
                 </a>
-              </div>
+              </div> */}
 
               <div className="sub-title">
               Software Engineering Summer intern
