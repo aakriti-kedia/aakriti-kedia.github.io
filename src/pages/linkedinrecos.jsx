@@ -67,9 +67,9 @@ const LinkedInRecos = () => {
         }
     }
 
-    setInterval(function() {
-        sliderAutomated();
-    }, 5000);
+    // setInterval(function() {
+    //     sliderAutomated();
+    // }, 5000);
 
     
 
