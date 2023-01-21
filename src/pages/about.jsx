@@ -1,8 +1,9 @@
 import React from "react";
 
-import LinkedInRecos from './linkedinrecos';
-
 import "../styles/about.css";
+
+import Recommendations from "../containers/recommendations";
+// import LinkedInRecos from './linkedinrecos';
 
 const About = () => {
   return (
@@ -19,7 +20,8 @@ const About = () => {
         </p>
       </div>
       <div className="linkedin-recos">
-      <LinkedInRecos/>
+        <Recommendations />
+      {/* <LinkedInRecos/> */}
       </div>
     </div>
   );
