@@ -23,10 +23,12 @@ const Home = () => {
       ></img>
 
       <div className="home-intro">
-        <p className="home-name">Hello World! I am Aakriti Kedia.</p>
-        <p className="home-university">Computer Science Graduate student @ UCSD
-        <br></br> Ex-SDE 3 @ Walmart 
-        <br></br> Gold medalist, BIT Mesra '20</p>
+        <p className="home-university">Hello World!</p>
+        <p className="home-name">I am Aakriti Kedia</p>
+        <p className="home-university">Computer Science @ University of California, San Diego
+        {/* <br></br> Ex-SDE 3 @ Walmart 
+        <br></br> Gold medalist, BIT Mesra '20 */}
+        </p>
         <p className="home-address">La Jolla, California, United States of America</p>
       </div>
 
@@ -79,7 +81,7 @@ const Home = () => {
           href="/resume.pdf"
           className="resume-download"
         >
-          Download Resume
+          Download CV
         </a>
       </div> 
     </div>

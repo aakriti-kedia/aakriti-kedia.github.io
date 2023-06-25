@@ -12,7 +12,7 @@ const Resume = () => {
             href="/resume.pdf"
             className="resume-download"
             >
-            Download Resume
+            Download CV
             </a>
         </div> 
 

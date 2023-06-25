@@ -10,7 +10,7 @@
     /* font-family: 'URW Chancery L', cursive; */
     font-family: Georgia, serif;
     font-weight: 300;
-    color: #517de4;
+    color: #25282f;
     text-align: center;
     margin-bottom: 2vh;
 }
@@ -29,7 +29,7 @@
 
 .contact-email {
     /* font-family: Bradley Hand, cursive; */
-    color: #4370d1;
+    color: #373636;
     font-size: calc(0.75rem + 0.5vw);
     text-decoration: none;
     justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .contact-email:hover {
-    color: #333333;
+    color: #888888;
 }
 
 .contact-icons-wrapper li {

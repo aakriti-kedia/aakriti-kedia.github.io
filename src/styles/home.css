@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Noto+Serif:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Merriweather&family=Noto+Serif:ital@1&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400;1,900&display=swap'); */
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400;1,900&display=swap'); */
 
 .home-container {
     height: calc(100vh - 50px);
@@ -11,7 +20,7 @@
 .home-img {
     width: 20vw;
     height: 20vw;
-    border-radius: 10%;
+    border-radius: 50%;
 
     object-fit: cover;
     object-position: center top;
@@ -20,21 +29,27 @@
 }
 
 .home-intro {
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    color: #444444;
     text-align: center;
     margin-bottom: 2vh;
 }
 
 .home-name {
-    font-size: calc(1rem + 1vh);
+    font-family: 'Dancing Script', cursive;
+    font-size: calc(1.5rem + 1.5vh);
     margin-bottom: 1vh;
 }
 
 .home-university {
-    font-size: calc(0.6rem + 0.75vh);
+    font-size: calc(0.6rem + 1vh);
+    margin-bottom: 1vh;
 }
 
 .home-address {
-    font-size: calc(0.6rem + 0.5vh);
+    font-size: calc(0.6rem + 0.9vh);
+    margin-bottom: 1vh;
 }
 
 .home-icons-wrapper li {
