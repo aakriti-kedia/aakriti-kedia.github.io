@@ -1,6 +1,6 @@
 @import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
 
 /* body {
   font-family: 'Roboto', sans-serif;
@@ -11,6 +11,8 @@
 
 .container {
   display:flex;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
   /*justify-content: flex-start;
   align-content:center;*/
   width:70vw;
