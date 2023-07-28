@@ -51,7 +51,7 @@ const Resume = () => {
                 </a>
               </div>
 
-              <div className="sub-sub-title">September 2022 - Current</div>
+              <div className="sub-sub-title">September 2022 - December 2023</div>
               <div className="pointer"></div>
             </li>
 
@@ -132,6 +132,31 @@ const Resume = () => {
             <li className="resume-item">
               <div className="title">
                 <a
+                  href="https://www.salesforce.com/ca/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                    Salesforce, San Francisco, USA
+                </a>
+              </div>
+
+              <div className="sub-title">
+              Software Engineering Summer Intern
+              </div>
+
+              <div className="sub-sub-title">June 2023 - September 2023</div>
+
+              <div className="content">
+                <p><b>Skills</b>: (Golang, Terraform, Web Application Firewall, AWS lambda, S3, SQS, DDoS)</p>
+                <p> - Threat intelligence: Analyzing feeds to identify malicious IPs and mitigating Layer 7 DDoS attacks </p>
+              </div>
+              <div className="pointer"></div>
+            </li>
+
+            <li className="resume-item">
+              <div className="title">
+                <a
                   href="https://tech.walmart.com/content/walmart-global-tech/en_us.html"
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -172,7 +197,7 @@ const Resume = () => {
               </div> */}
 
               <div className="sub-title">
-              Software Engineering Winter intern
+              Software Engineering Winter Intern
               </div>
 
               <div className="sub-sub-title">January 2020 - July 2020</div>
@@ -201,7 +226,7 @@ const Resume = () => {
               </div> */}
 
               <div className="sub-title">
-              Software Engineering Summer intern
+              Software Engineering Summer Intern
               </div>
 
               <div className="sub-sub-title">May 2019 - July 2019</div>
