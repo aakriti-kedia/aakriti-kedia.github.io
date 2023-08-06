@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/pooja.bcd3267d.jpeg"
   },
   {
-    "revision": "b499fbef6283e524ae3c689f3596f344",
+    "revision": "73d52d4097b8a1ecb06ba482ebf12541",
     "url": "/index.html"
   }
 ];
