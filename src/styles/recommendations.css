@@ -16,7 +16,7 @@
   /*justify-content: flex-start;
   align-content:center;*/
   width:70vw;
-  height: 35vh;
+  height: 25vh;
 }
 
 i {
@@ -51,7 +51,7 @@ img {
 
 .box {
   /*display:block;*/
-  background: #eee;
+  background: #fafafa;
   text-align: center;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
