@@ -19,7 +19,7 @@ const About = () => {
         In addition to my technical prowess, I have a knack for leadership and communication. I've conducted workshops, mentored students (GHC'23 OSD mentor), and even instructed engineering jargon to a 40-member PM cohort resulting in a 15% efficacy boost in PM-Engineer conversations as part of my community initiatives. I am a lifelong learner and have a diverse skill set that includes programming languages such as Golang, Java, Python, C++, Rust, and more. My expertise extends to areas like artificial intelligence, machine learning, distributed systems, and cloud technologies.
         </p>
         <p className="about-details">
-        I take pride in my ability to tackle complex problems, drive innovation, and collaborate effectively with cross-functional teams. I am eagerly seeking full-time opportunities in the dynamic realm of back-end software development including security, where my go-getter attitude and relentless passion can make a meaningful impact. Please connect with me on LinkedIn and let's work together to make a positive impact in the world of technology.
+        I take pride in my ability to tackle complex problems, drive innovation, and collaborate effectively with cross-functional teams. I am actively seeking full-time opportunities in the dynamic realm of back-end software development including security, where my go-getter attitude and relentless passion can make a meaningful impact. Please connect with me on LinkedIn and let's work together to make a positive impact in the world of technology.
         </p>
       </div>
       <div className="linkedin-recos">

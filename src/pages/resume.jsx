@@ -148,8 +148,10 @@ const Resume = () => {
               <div className="sub-sub-title">June 2023 - September 2023</div>
 
               <div className="content">
-                <p><b>Skills</b>: (Golang, Terraform, Web Application Firewall, AWS lambda, S3, SQS, DDoS)</p>
-                <p> - Threat intelligence: Analyzing feeds to identify malicious IPs and mitigating Layer 7 DDoS attacks </p>
+                <p><b>Skills</b>: (Golang, Web Application Firewall, AWS lambda, S3, SQS, DDoS)</p>
+                <p> - Engineered a production-ready microservice to preemptively block malicious DDoS IPs on Layer 7 </p>
+                <p> - Conducted experiments with Envoy and HTTP filters like ext_authz to optimize production parameters </p>
+                <p> - Winner of Salesforce's <b>4th Annual Global Intern Pitch Competition</b> with an innovative AI proposal helping high-tech companies attain sustainability, among 80+ teams </p>
               </div>
               <div className="pointer"></div>
             </li>
