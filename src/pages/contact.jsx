@@ -17,21 +17,23 @@ const Contact = () => {
         <p className="contact-details">Drop me a note on:</p>
         <div className="contact-emails">
           <a
-              href="mailto:akedia@ucsd.edu" 
+              href="mailto:akedia614@gmail.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="contact-email"
           >
-            akedia@ucsd.edu
+            Email - akedia614@gmail.com
           </a>
+
           <a
-              href="mailto:aakritikedia614@gmail.com" 
+              href="https://www.linkedin.com/in/aakriti-kedia/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="contact-email"
           >
-            aakritikedia614@gmail.com
+            LinkedIn - Aakriti Kedia
           </a>
+
         </div>
       </div>
 

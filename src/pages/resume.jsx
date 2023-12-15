@@ -16,107 +16,6 @@ const Resume = () => {
             </a>
         </div> 
 
-      <div className="timeline-section resume-education">
-        <div className="heading-section">
-          <div className="heading">EDUCATION</div>
-        </div>
-
-        <div className="timeline-container">
-          <ul className="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
-            <div className="list-progress">
-              <div className="inner">
-              </div>
-            </div>
-
-            <li className="resume-item active">
-              <div className="title">
-                <a
-                  href="https://ucsd.edu/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="resume-links"
-                >
-                  University of California, San Diego, USA
-                </a>
-              </div>
-
-              <div className="sub-title">Master of Science,{" "}
-                <a
-                  href="https://cse.ucsd.edu/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="resume-links"
-                >
-                  Computer Science
-                </a>
-              </div>
-
-              <div className="sub-sub-title">September 2022 - December 2023</div>
-              <div className="pointer"></div>
-            </li>
-
-            <li className="resume-item">
-              <div className="title">
-                <a
-                  href="https://www.bitmesra.ac.in/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="resume-links"
-                >
-                  Birla Institute of Technology, Mesra, India
-                </a>
-              </div>
-
-              <div className="sub-title">Bachelor of Engineering,{" "}
-                <a
-                  href="https://www.bitmesra.ac.in/Show_Department_Section?cid=1&deptid=70" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="resume-links"
-                >
-                  Information Technology (Computer Science)
-                </a>
-              </div>
-
-              <div className="sub-sub-title">July 2016 - July 2020</div>
-              <div className="content">
-                <p><b>CGPA</b>: 9.2/10.0</p>
-                <p>- Best outgoing student; Gold Medalist - Batch of 2020</p>
-                <p>- Technical member at IEEE, Student's Chapter BIT Mesra </p>
-                <p>- Executive member at National Service Scheme, BIT Mesra </p>
-                <p>- Dance club member, BIT Mesra </p>
-                <p>- Finalist of Smart India Hackathon, 2019 </p>
-              </div>
-              <div className="pointer"></div>
-            </li>
-
-            <li className="resume-item">
-              <div className="title">
-                  Shiv Jyoti International School, Kota, India
-              </div>
-
-              <div className="sub-title">Higher Secondary school
-              </div>
-
-              <div className="sub-sub-title">March 2014 - May 2016</div>
-              <div className="pointer"></div>
-            </li>
-
-            <li className="resume-item">
-              <div className="title">
-                  St. Joseph's Girls' High School, Cuttack, India
-              </div>
-
-              <div className="sub-title">Matriculation{" "}
-              </div>
-
-              <div className="sub-sub-title">March 2003 - May 2014</div>
-              <div className="pointer"></div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <div className="timeline-section resume-experience">
         <div className="heading-section">
           <div className="heading">EXPERIENCE</div>
@@ -129,10 +28,35 @@ const Resume = () => {
               </div>
             </div>
 
+            <li className="resume-item active">
+              <div className="title">
+                <a
+                  href="https://www.linkedin.com/company/google/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                    Google, Sunnyvale, USA
+                </a>
+              </div>
+
+              <div className="sub-title">
+              Software Engineer 3
+              </div>
+
+              <div className="sub-sub-title">January 2024 - Present</div>
+
+              <div className="content">
+                <p><b>Skills</b>: (Golang, Kubernetes, Cloud, Controllers, Distributed Systems)</p>
+                <p> - Engineering backend services at Google Cloud </p>
+              </div>
+              <div className="pointer"></div>
+            </li>
+
             <li className="resume-item">
               <div className="title">
                 <a
-                  href="https://www.salesforce.com/ca/"
+                  href="https://www.linkedin.com/company/salesforce/"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="resume-links"
@@ -159,7 +83,7 @@ const Resume = () => {
             <li className="resume-item">
               <div className="title">
                 <a
-                  href="https://tech.walmart.com/content/walmart-global-tech/en_us.html"
+                  href="https://www.linkedin.com/company/walmartglobaltech/"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="resume-links"
@@ -169,7 +93,7 @@ const Resume = () => {
               </div>
 
               <div className="sub-title">
-              Software Engineer 3
+              Software Engineer 2
               </div>
 
               <div className="sub-sub-title">August 2022 - September 2022</div>
@@ -243,6 +167,111 @@ const Resume = () => {
               <div className="pointer"></div>
             </li>
 
+          </ul>
+        </div>
+      </div>
+
+      <div className="timeline-section resume-education">
+        <div className="heading-section">
+          <div className="heading">EDUCATION</div>
+        </div>
+
+        <div className="timeline-container">
+          <ul className="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+            <div className="list-progress">
+              <div className="inner">
+              </div>
+            </div>
+
+            <li className="resume-item">
+              <div className="title">
+                <a
+                  href="https://ucsd.edu/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                  University of California, San Diego, USA
+                </a>
+              </div>
+
+              <div className="sub-title">Master of Science,{" "}
+                <a
+                  href="https://cse.ucsd.edu/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                  Computer Science
+                </a>
+              </div>
+
+              <div className="sub-sub-title">September 2022 - December 2023</div>
+              <div className="content">
+                <p><b>CGPA</b>: 4.0/4.0</p>
+                <p>- Graduate Teaching Assistant - Software Tools & Techniques Lab, 300+ students</p>
+              </div>
+              <div className="pointer"></div>
+            </li>
+
+            <li className="resume-item">
+              <div className="title">
+                <a
+                  href="https://www.bitmesra.ac.in/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                  Birla Institute of Technology, Mesra, India
+                </a>
+              </div>
+
+              <div className="sub-title">Bachelor of Engineering,{" "}
+                <a
+                  href="https://www.bitmesra.ac.in/Show_Department_Section?cid=1&deptid=70" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                  Information Technology (Computer Science)
+                </a>
+              </div>
+
+              <div className="sub-sub-title">July 2016 - July 2020</div>
+              <div className="content">
+                <p><b>CGPA</b>: 9.2/10.0</p>
+                <p>- Best outgoing student; Gold Medalist - Batch of 2020</p>
+                <p>- Technical member at IEEE, Student's Chapter BIT Mesra </p>
+                <p>- Executive member at National Service Scheme, BIT Mesra </p>
+                <p>- Dance club member, BIT Mesra </p>
+                <p>- Finalist of Smart India Hackathon, 2019 </p>
+              </div>
+              <div className="pointer"></div>
+            </li>
+
+            <li className="resume-item">
+              <div className="title">
+                  Shiv Jyoti International School, Kota, India
+              </div>
+
+              <div className="sub-title">Higher Secondary school
+              </div>
+
+              <div className="sub-sub-title">March 2014 - May 2016</div>
+              <div className="pointer"></div>
+            </li>
+
+            <li className="resume-item">
+              <div className="title">
+                  St. Joseph's Girls' High School, Cuttack, India
+              </div>
+
+              <div className="sub-title">Matriculation{" "}
+              </div>
+
+              <div className="sub-sub-title">March 2003 - May 2014</div>
+              <div className="pointer"></div>
+            </li>
           </ul>
         </div>
       </div>

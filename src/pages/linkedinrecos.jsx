@@ -9,6 +9,8 @@ import Kritika from '../assets/images/kritika.jpeg'
 import Shirpaa from '../assets/images/shirpaa.jpeg'
 import Swetha from '../assets/images/swetha.jpeg'
 import Pooja from '../assets/images/pooja.jpeg'
+import Vijay from '../assets/images/vijay.jpeg'
+import Rahul from '../assets/images/rahul.jpeg'
 
 const LinkedInRecos = () => {
     function removeShow(className, ind) {
@@ -81,6 +83,26 @@ const LinkedInRecos = () => {
             <div class="binderleft">
             </div>
             <div class="box show">
+                <div class="whitebox">
+                    <i class="fas fa-arrow-left"></i>
+                    <img src={Vijay} alt="Vijay Bulusu"/>
+                    <p><em>I worked with Aakriti during her internship at Salesforce in Summer '23. Aakriti is outstanding. She completed her internship project well before the deadline, took on a second project and completed that too without compromising on code quality. She was very independent and was able to make progress even when the requirements were unclear and evolving. She would be an asset on any team.
+                        <br></br>
+                    <span class="attrib">- Vijay Bulusu</span></em></p>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="whitebox">
+                    <i class="fas fa-arrow-left"></i>
+                    <img src={Rahul} alt="Rahul Aggarwal"/>
+                    <p><em>Aakriti is very bright and eager to learn new skills. During her internship at Salesforce, I mentored her for a competition where she and her team had to prepare a pitch for a new product at Salesforce. She takes feedback seriously and applies it diligently to make improvements. Working in a team setting, she also demonstrated great leadership and communication skills. She and her team put together a very compelling pitch which won them the top price at the competition.
+                        <br></br>
+                    <span class="attrib">- Rahul Aggarwal</span></em></p>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="box hide">
                 <div class="whitebox">
                     <i class="fas fa-arrow-left"></i>
                     <img src={Parvesh} alt="Parvesh Garg"/>
