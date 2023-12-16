@@ -24,12 +24,12 @@ const Home = () => {
 
       <div className="home-intro">
         <p className="home-university">Hello World!</p>
-        <p className="home-name">I am Aakriti Kedia</p>
+        <p className="home-name">I am Aakriti Kedia </p>
         <p className="home-university">Software Engineer @ Google
         {/* <br></br> Ex-SDE 3 @ Walmart 
         <br></br> Gold medalist, BIT Mesra '20 */}
         </p>
-        <p className="home-address">Sunnyvale, California, United States of America</p>
+        <p className="home-address">Sunnyvale, California, USA</p>
       </div>
 
       <div className="home-icons-wrapper">

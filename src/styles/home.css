@@ -36,8 +36,8 @@
 }
 
 .home-name {
-    font-family: 'Dancing Script', cursive;
-    font-size: calc(1.5rem + 1.5vh);
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(1rem + 1vh);
     margin-bottom: 1vh;
 }
 
