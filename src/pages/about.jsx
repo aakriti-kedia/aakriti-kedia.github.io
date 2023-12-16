@@ -2,8 +2,7 @@ import React from "react";
 
 import "../styles/about.css";
 
-import Recommendations from "../containers/recommendations";
-// import LinkedInRecos from './linkedinrecos';
+import LinkedInRecos from './linkedinrecos';
 
 const About = () => {
   return (
@@ -26,8 +25,7 @@ const About = () => {
         </p>
       </div>
       <div className="linkedin-recos">
-        <Recommendations />
-      {/* <LinkedInRecos/> */}
+      <LinkedInRecos/>
       </div>
     </div>
   );

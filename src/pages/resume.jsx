@@ -100,12 +100,11 @@ const Resume = () => {
 
               <div className="content">
                 <p><b>Skills</b>: (Java, Cassandra, Memcached, Postman APIs, Tempo CMS, Kafka)</p>
-                <p> - Spearheaded personalized banner support in emails. W+ membership, App download, and Easter banners reported ~95% CTR (click-through rate) </p>
+                <p> - Spearheaded personalized banner support in emails. W+ membership, App download, and Easter banners reported ~95% CTR </p>
                 <p> - Implemented and deployed pipelines that pushed TBs of data to Cassandra and cache nodes </p>
                 <p> - Built a ~0.5% GMV contributing framework for assigning "Holiday Deal" badges on www.walmart.com </p>
                 <p> - Rewarded Engineering Excellence Award for remarkable year-round adaptability and agility </p>
-                <p> - Instructed a 40-member Product Managers cohort, familiarizing them with engineering jargon, resulting in
-                a 15% efficacy boost in PM and engineering conversations </p>
+                <p> - Familiarized Product Managers with engineering jargon, boosting PM and engineering conversations' efficacy by ~15%</p>
               </div>
               <div className="pointer"></div>
             </li>

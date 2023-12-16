@@ -184,10 +184,11 @@
 }
 
 .resume-item .content {
-    font-size: calc(0.65rem + 0.75vh);
+    font-size: 18px;
     line-height: 1.5;
     color: #444444;
     text-align: justify;
+    font-family: 'Merriweather', serif;
 }
 
 .resume-icons {

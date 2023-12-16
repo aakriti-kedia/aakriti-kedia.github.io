@@ -30,7 +30,6 @@
 
 .home-intro {
     /* font-family: 'Merriweather', serif; */
-    /* font-family: 'Dancing Script', cursive; */
     color: #444444;
     text-align: center;
     margin-bottom: 2vh;
@@ -43,7 +42,7 @@
 }
 
 .home-university {
-    font-size: calc(0.6rem + 1vh);
+    font-size: calc(0.8rem + 1vh);
     margin-bottom: 1vh;
 }
 
