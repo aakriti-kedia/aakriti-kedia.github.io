@@ -12,7 +12,7 @@
 .container {
   display:flex;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Merriweather', serif;
   /*justify-content: flex-start;
   align-content:center;*/
   width:70vw;
@@ -93,6 +93,8 @@ img {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
 }
 
 .attrib {
